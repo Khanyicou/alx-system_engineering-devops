@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Prints pockets
+
+netstat -l --program
