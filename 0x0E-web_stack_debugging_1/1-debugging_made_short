@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# Changes port in Nginx
-# Configures an Nginx server to listen on port 80.
+# Configures an Nginx server to listen on port 80 (Changes port in Nginx)
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 service nginx start
 kill "$(pgrep 'nginx' | head -1)"
