@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Bash script that will display information about subdomains
 # Usage: ./1-world_wide_web <domain> <subdomain>
 # Display information about subdomains.
 
